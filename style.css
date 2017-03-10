@@ -1,21 +1,27 @@
 body {
+height: 100%;
   margin: 0 auto;
   background-color: white;
+  font-family: arial, sans-serif;
+  font-size: small;
 }
 #form {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 320px;
+  left:360px;
+  }
+  #textbox {
+  height:34px;
+  line-height: 34px;
+  margin: -1px 0px 1px;
+  width: 584px;
 }
-#search {
-  position: relative;
-  top: -50%;
-  left: -50%;
-}
+#button {
+margin: 10px 0 10px 140px;
+  }
 .button {
   background-color: #f2f2f2;
   border-radius: 2px;
-  font-family: arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
   color: #757575;
@@ -23,4 +29,28 @@ body {
   padding: 0 16px;
   text-align: center;
   height: 36px;
+}
+#lang {
+  margin-left: 5px;
+}
+#country {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 215px;
+  position: relative;
+  top: -20px;
+}
+#logo {
+  margin-left: 150px;
+}
+a {
+  text-decoration: none;
+  color: #1a0dab;
+  padding: 0 3px;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
 }
