@@ -34,6 +34,7 @@ margin: 10px 0 10px 140px;
   text-align: center;
   height: 36px;
   border: none;
+  margin-top: 20px;
 }
 .button:hover {
   border-style: solid;
@@ -45,6 +46,7 @@ margin: 10px 0 10px 140px;
 }
 #lang {
   margin-left: 5px;
+  margin-top: 20px;
 }
 #country {
   color: #4285f4;
@@ -55,6 +57,7 @@ margin: 10px 0 10px 140px;
 }
 #logo {
   margin-left: 150px;
+  margin-bottom: 20px;
 }
 a {
   text-decoration: none;
@@ -66,4 +69,33 @@ a:hover {
 }
 a:active {
   text-decoration: underline;
+}
+#footerleft {
+  position: fixed;
+  bottom: 0;
+}
+#footerright {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  }
+#footer {
+  display: block;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  height: 44px;
+  width: 100%;
+  font-size: 10pt;
+  border-top: 1px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  }
+ul {
+  list-style: none;
+  color: #666666;
+}
+li {
+  display: inline;
+  color: #666666;
 }
