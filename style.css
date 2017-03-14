@@ -7,7 +7,7 @@ height: 100%;
 }
 #form {
   position: absolute;
-  top: 320px;
+  top: 210px;
   left:360px;
   }
   #textbox {
@@ -15,6 +15,10 @@ height: 100%;
   line-height: 34px;
   margin: -1px 0px 1px;
   width: 584px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
 }
 #button {
 margin: 10px 0 10px 140px;
@@ -29,6 +33,15 @@ margin: 10px 0 10px 140px;
   padding: 0 16px;
   text-align: center;
   height: 36px;
+  border: none;
+}
+.button:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: #E1E1E1;
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
 }
 #lang {
   margin-left: 5px;
